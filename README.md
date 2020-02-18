@@ -42,6 +42,9 @@ Courseware of Coursera Full Stack Specialization: Server-Side Development with N
         ```
     * node_modules
         Store all third party package installations inside. 
+* **PACKAGE morgan**
+    [HTTP Request Logger Middleware for NodeJS](https://github.com/expressjs/morgan)
+    
 ---
 
 ## Setup
