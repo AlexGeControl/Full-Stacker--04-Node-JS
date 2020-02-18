@@ -6,6 +6,20 @@ Courseware of Coursera Full Stack Specialization: Server-Side Development with N
 
 ## Resources
 
+### NodeJS Basics
+
+#### Architecture
+
+* [NodeJS Event Loop](https://nodejs.org/en/docs/guides/event-loop-timers-and-nexttick/)
+
+* [CommonJS](http://www.commonjs.org/) and [RequireJS](http://requirejs.org/)
+
+#### Core Modules
+
+* [Postman] Request & Response debugging tool
+
+#### Web Framework
+
 ---
 
 ## Setup
