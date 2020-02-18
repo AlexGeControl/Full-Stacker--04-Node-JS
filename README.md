@@ -16,10 +16,32 @@ Courseware of Coursera Full Stack Specialization: Server-Side Development with N
 
 #### Core Modules
 
-* [Postman] Request & Response debugging tool
+* [Postman](https://www.postman.com/) Request & Response debugging tool
+
+* [HTTP Status Code](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes)
 
 #### Web Framework
 
+* [ExpressJS](www.expressjs.com)Fast & Minimalist Web Framework
+* **Package Installation Rules**
+    * Minor acceptable: 
+    ```bash
+    npm install express@"^4.0.0"
+    ```
+    * Patch acceptable:
+    ```bash
+    npm install express@"~4.0.0"
+    ```
+* **Node Package Structure**
+    * package.json
+        Specify the dependencies of current project
+    * package-lock.json
+        Record the exact tree generated during installation. This is useful for reproducing environment on different machine with 
+        ```bash
+        npm install
+        ```
+    * node_modules
+        Store all third party package installations inside. 
 ---
 
 ## Setup
