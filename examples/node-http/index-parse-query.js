@@ -10,9 +10,6 @@ const port = 3000;
 
 const server = http.createServer(
     function (req, res) {
-        // prompt:
-        console.log(`[HTTP Server]: request ${req.url} by method ${req.method}`);
-
         // parse query:
         const q = url.parse(
             req.url, 
