@@ -1,14 +1,17 @@
 const rectangle = require('./rectangle')
 
 function analyzeRectangle(l, b) {
-    console.log('[Rectangle Analysis]: rectangle with l = ' + l + ' and b = ' + b);
-
-    if (l <= 0 || b <= 0) {
-        console.log('[Rectangle Analysis]: dimensions should be greater than zero')
-    } else {
-        console.log('[Rectangle Analysis]: perimeter -- ' + rectangle.perimeter(l, b));
-        console.log('[Rectangle Analysis]: area -- ' + rectangle.area(l, b));
-    }
+    rectangle.analyze(
+        l, b,
+        (error, analysis) => {
+            if (error) {
+                console.log('[ERROR]: ' + error.message);
+            } else {
+                console.log('[Perimeter]: ' + analysis.perimeter(l, b))
+                console.log('[Area]: ' + analysis.area(l, b))
+            }
+        }
+    )
 }
 
 analyzeRectangle( 2, 4);
